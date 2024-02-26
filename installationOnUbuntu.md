@@ -8,7 +8,7 @@ sudo apt-get install python3-pyelftools
 $ git clone https://github.com/riscv/riscv-gnu-toolchain
 
 #### Installation (Newlib multilib)
-<p align="justify">o build the Newlib cross-compiler, pick an install path (that is writeable). If you choose, say, /opt/riscv, then add /opt/riscv/bin to your PATH. Then, simply run the following command:</p>
+<p align="justify"> To build the Newlib cross-compiler, pick an install path (that is writeable). If you choose, say, /opt/riscv, then add /opt/riscv/bin to your PATH. Then, simply run the following command:</p>
 
 ./configure --prefix=/opt/riscv --enable-multilib
 make
