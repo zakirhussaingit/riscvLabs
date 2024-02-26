@@ -14,3 +14,4 @@ $ git clone https://github.com/riscv/riscv-gnu-toolchain
 make
 
 <p align="justify">The multilib compiler will have the prefix riscv64-unknown-elf- or riscv64-unknown-linux-gnu- but will be able to target both 32-bit and 64-bit systems. It will support the most common -march/-mabi options, which can be seen by using the --print-multi-lib flag on either cross-compiler.</p>
+<br><b>example:</b> riscv64-unknown-elf-gcc -print-multi-lib
